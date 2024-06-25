@@ -4,7 +4,7 @@ const app = express();
 
 // The second arg which is an arrow function is being called whenever we have a request at '/'.
 app.get("/", (req, res) => {
-    res.send({hi: "there"});
+    res.send({bye: "buddy"});
 });
 
 // || 5000 if we are in development environment. In production, we use whatever port Heroku assigns to us.
